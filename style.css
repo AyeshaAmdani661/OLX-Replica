@@ -1,0 +1,583 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+}
+
+.image {
+    width: 35px;
+    height: 20px;
+    margin: 1% 2% 0% 3%;
+}
+
+a:link {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(2, 182, 253);
+}
+
+.a1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 1% 1%;
+    color: black;
+}
+
+input, select {
+    border: 1px black solid;
+    border-radius: 3px;
+    height: 1.5em;
+    background-image: url('images/a3.jpg');
+    margin: 15px 10px 10px 30px;
+    padding: 10px 10px 10px 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+    font-size: 15px;
+    outline-color: rgb(11, 247, 247);
+    outline-offset: 0px;
+    width: 58%;
+}
+
+#location {
+    height: 3em;
+    width: 21%;
+}
+
+.image3 {
+    background-image: url('images/a4.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45px;
+    padding-left: 1%;
+    margin-left: 0%;
+    font-size: 15px;
+}
+
+.link1:link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: black;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: black;
+    font-size: 18px;
+    margin-left: 1%;
+}
+
+.link1:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.link1:visited {
+    color: black;
+}
+
+#sell {
+    background-color: white;
+    border: 5px solid;
+    border-color: cyan blue blue yellow;
+    border-radius: 35px;
+    margin-left: 1%;
+    padding: 7px 20px;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.class1 {
+    background-color: white;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 100px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link2:link {
+    margin: 15px 10px 10px 35px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.link2:hover, .link2:visited {
+    color: black;
+}
+
+.image4 {
+    margin: 1% 2% 0% 0%;
+    width: 25px;
+    height: 22px;
+}
+
+.img1 {
+    width: 25px;
+    height: 25px;
+}
+
+.img2 {
+    width: 30px;
+    height: 20px;
+}
+
+.class2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.image6 {
+    width: 800px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 0px 0px 10px 25px;
+}
+
+.class3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.child {
+    width: 300px;
+    height: 300px;
+    margin: 15px 0px 15px 30px;
+    border: darkgrey 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.classA {
+    width: auto;
+    height: 150px;
+    border: darkgrey 1px solid;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.featured {
+    margin-left: -7px;
+    width: 307px;
+    height: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.product {
+    width: 300px;
+    height: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.address {
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+    margin-top: 40px;
+}
+
+.fav {
+    margin-left: 100px;
+}
+
+.fav1 {
+    margin-left: 15px;
+}
+
+.fav2 {
+    margin-left: 50px;
+}
+
+.child3, .child9, .child14 {
+    border-left: inset 6px rgb(253, 236, 2);
+}
+
+.sellimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.image7 {
+    height: 25px;
+    width: 30px;
+    margin: 0px 10px 0px 0px;
+}
+
+.button1 {
+    border: none;
+    box-shadow: 0px 2px 2px 3px #eee;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.button1:hover {
+    box-shadow: 0px 2px 2px 3px #868686;
+}
+
+.up:link, .up:hover, .up:visited {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.button2 {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+}
+
+.button2:hover {
+    border: 5px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.class4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.class5 {
+    background-color: rgb(228, 228, 228);
+}
+
+.image8 {
+    border-bottom: rgb(207, 206, 206) solid 2px;
+}
+
+.classB {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+li {
+    display: block;
+    font-size: 13px;
+}
+
+.imp {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.link5:link, .link5:visited {
+    color: rgb(85, 85, 85);
+}
+
+.link5:hover {
+    color: black;
+}
+
+.imp1 {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+
+.socialimg {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    margin: 3px;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.b1 {
+    width: 100px;
+    height: 30px;
+    margin-right: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    background-color: rgb(3, 45, 51);
+    text-align: right;
+    padding: 20px 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.login1 {
+
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+    margin: 50px auto;
+}
+
+.login {
+    position: relative;
+    top: 15px;
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.back {
+    position: relative;
+    top: 10px;
+    left: 370px;
+}
+
+.logo {
+    width: 130px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.p1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.b2, .b3 {
+    height: 50px;
+    width: 350px;
+    display: block;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px 30px 40px 5px;
+    font-weight: bolder;
+    border: solid 2px black;
+    background-color: white;
+    font-size: 20px;
+}
+
+.b3 {
+    padding: 10px 30px 40px 0px;
+}
+
+.b2:hover, .b3:hover {
+    border: black 4px solid;
+}
+
+.social1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.social2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.link6:link, .link6:hover, .link6:visited {
+    color: blue;
+}
+
+@media all and (max-width:1300px) {
+    nav {
+        padding-bottom: 1%;
+    }
+
+    .class1 {
+        margin-top: 150px;
+
+    }
+
+    .link2:link {
+        margin: 15px 10px 10px 25px;
+    }
+
+    button, .link1:link {
+        margin-left: 3%;
+    }
+
+    .image5, .image8 {
+        width: 1280px;
+    }
+
+    #sell {
+        margin-left: 30px;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .link2:link {
+        margin: 15px 10px 10px 20px;
+    }
+
+    .image5, .image8 {
+        width: 1180px;
+    }
+}
+
+@media all and (max-width:1000px) {
+    .image5, .image8 {
+        width: 1080px;
+    }
+}
+
+@media all and (max-width:1000px) {
+    .image5, .image8 {
+        width: 980px;
+    }
+
+    .image6 {
+        width: 600px;
+    }
+
+    .link2:link {
+        margin: 15px 10px 10px 15px;
+    }
+
+    #sell {
+        margin-left: 25px;
+    }
+}
+
+@media all and (max-width:900px) {
+    .image5, .image8 {
+        width: 880px;
+    }
+
+    .link2:link {
+        margin: 15px 10px 10px 15px;
+    }
+
+    #location {
+        margin-left: 20px;
+    }
+
+    #sell {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width:800px) {
+    .image5, .image8 {
+        width: 770px;
+    }
+
+    select {
+        margin: 15px 10px 10px 20px;
+    }
+
+    .image6 {
+        width: 400px;
+    }
+}
+
+@media all and (max-width:700px) {
+    .image5 {
+        width: 700px;
+    }
+
+    .image6 {
+        width: 350px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .image8 {
+        width: 680px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .image5, .image8 {
+        width: 590px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .image5, .image8 {
+        width: 490px;
+    }
+}
