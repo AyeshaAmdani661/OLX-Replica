@@ -1,6 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
     margin: 0px;
 }
 
@@ -477,7 +476,7 @@ footer {
         margin-left: 3%;
     }
 
-    .image5, .image8 {
+    .image5, .image8,.class5{
         width: 1280px;
     }
 
@@ -491,19 +490,19 @@ footer {
         margin: 15px 10px 10px 20px;
     }
 
-    .image5, .image8 {
+    .image5, .image8 ,.class5{
         width: 1180px;
     }
 }
 
 @media all and (max-width:1000px) {
-    .image5, .image8 {
+    .image5, .image8 ,.class5{
         width: 1080px;
     }
 }
 
 @media all and (max-width:1000px) {
-    .image5, .image8 {
+    .image5, .image8 ,.class5{
         width: 980px;
     }
 
@@ -521,7 +520,7 @@ footer {
 }
 
 @media all and (max-width:900px) {
-    .image5, .image8 {
+    .image5, .image8 ,.class5{
         width: 880px;
     }
 
@@ -539,7 +538,7 @@ footer {
 }
 
 @media all and (max-width:800px) {
-    .image5, .image8 {
+    .image5, .image8 ,.class5{
         width: 770px;
     }
 
@@ -571,13 +570,25 @@ footer {
 }
 
 @media all and (max-width:600px) {
-    .image5, .image8 {
+    .image5, .image8,.class5{
         width: 590px;
     }
 }
 
 @media all and (max-width:500px) {
-    .image5, .image8 {
+    .image5, .image8 ,.class5{
         width: 490px;
+    }
+}
+
+@media all and (max-width:470px) {
+    .image5, .image8,.class5{
+        width: 470px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .image5, .image8 ,.class5{
+        width: 400px;
     }
 }
